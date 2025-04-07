@@ -1,13 +1,13 @@
 #
 # Conditional build:
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module
 
 Summary:	Symbolic constants in Python 2
 Summary(pl.UTF-8):	Stałe symboliczne w Pythonie 2
 Name:		python-constantly
 Version:	15.1.0
-Release:	7
+Release:	8
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/constantly/
